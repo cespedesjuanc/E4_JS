@@ -76,7 +76,7 @@ const filtrar = () => {
             <h2 class="titulo">${pizza.nombre}</h2>
             <p class="ingredientes">${pizza.ingredientes}</p>
             <span>$${pizza.precio}</span>
-            <button class="comprar">Pedir Ya!</button>
+            <button class="pedirYa">Pedir Ya!</button>
         </div>
             `;
     } /*else if (text_busqueda === "") {
