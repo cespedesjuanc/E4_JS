@@ -146,6 +146,12 @@ img {
   -o-border-radius: 15px;
 }
 
+span {
+  font-size: 25px;
+  font-weight: 800;
+  color: #131415;
+}
+
 .pedirYa {
   padding: 0.5rem 0.7rem;
   background: greenyellow;
