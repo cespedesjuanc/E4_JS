@@ -79,9 +79,7 @@ const filtrar = () => {
             <button class="pedirYa">Pedir Ya!</button>
         </div>
             `;
-    } /*else if (text_busqueda === "") {
-      alert("Producto no disposible");
-    }*/
+    }
   }
   if (cardContainer.innerHTML === "") {
     cardContainer.innerHTML += `
