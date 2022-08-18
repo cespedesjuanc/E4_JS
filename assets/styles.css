@@ -94,6 +94,9 @@ input {
   height: 30px;
   border-radius: 25px;
   margin-right: 15px;
+  text-align: center;
+  border: none;
+  outline: none;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
