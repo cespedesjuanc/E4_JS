@@ -136,6 +136,25 @@ input {
   -o-border-radius: 25px;
 }
 
+.noEncontrado {
+  margin: 5px;
+  background: greenyellow;
+  color: #131415;
+  font-weight: 800;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
 img {
   width: 200px;
   height: 200px;

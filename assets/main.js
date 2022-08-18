@@ -85,8 +85,12 @@ const filtrar = () => {
   }
   if (cardContainer.innerHTML === "") {
     cardContainer.innerHTML += `
-        <p>No encontamos esa variedad de Pizza </p>
+        <p class="noEncontrado">No encontamos esa variedad de Pizza </p>
         `;
+    /*
+    cardContainer.innerHTML += `
+        <img scr="/assets/img/pizza_not_found.png" class="noEncontrado" alt="pizzaNotFound">
+        `;*/
   }
   saveLocalStorage();
 };
